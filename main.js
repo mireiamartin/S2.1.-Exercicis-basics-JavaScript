@@ -124,3 +124,15 @@ const printElement = elemento => {
 };
 
 processarElements(arrayElements, printElement);
+
+//exercici 5 nivell 3
+const processarCadena = (cadena, callback) => {
+    const cadenaMajuscules = cadena.toUpperCase();
+    callback(cadenaMajuscules);
+}
+
+const changeToUpper = (cadena) => {
+    console.log(cadena);
+}
+
+processarCadena("FrontEnd!", changeToUpper);
