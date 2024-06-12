@@ -167,3 +167,10 @@ objecte2.ciutat = 'Sant Quirze';
 
 console.log(objecte1);
 console.log(objecte2);
+
+//exercici 4 nivell 2
+const numbersArray = [1, 2, 3, 4];
+
+const [number1, number2, ...rest] = numbersArray;
+
+console.log(number1, number2, rest);
