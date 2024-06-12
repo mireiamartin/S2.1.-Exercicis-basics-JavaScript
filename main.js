@@ -184,3 +184,20 @@ const sumaArguments = (num1, num2, num3) => {
 }
 
 sumaArguments(...arrayNum);
+
+//exercici 6 nivell 3
+const object1 = {
+    Vehicle: 'Cotxe',
+    Marca: 'Peugeot',
+    Any: 2001
+};
+
+const object2 = {
+    Propietaria: 'Mireia',
+    Ciutat: 'Sabadell',
+    Edat: 32
+};
+
+const object3 = {...object1, ...object2}
+
+console.log(object3)
