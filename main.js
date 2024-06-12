@@ -233,3 +233,10 @@ const sumaTotal = numbers_3.reduce((total, number) => {
 })
 
 console.log(sumaTotal);
+
+//Exercici 5 nivell 2
+const numbers_4 = [ 1, 3, 7, 10 ,15, 17, 11, 5, 8, 12, 9 ];
+
+const resultSuma = numbers_4.filter(num => num >= 10).map(num => num * 2).reduce((total, num) => total + num, 0);
+
+console.log(resultSuma);
