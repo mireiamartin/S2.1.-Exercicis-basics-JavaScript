@@ -240,3 +240,13 @@ const numbers_4 = [ 1, 3, 7, 10 ,15, 17, 11, 5, 8, 12, 9 ];
 const resultSuma = numbers_4.filter(num => num >= 10).map(num => num * 2).reduce((total, num) => total + num, 0);
 
 console.log(resultSuma);
+
+//Exercici 6 nivell 3
+const numbers_5 = [11, 12, 13, 14];
+
+const every = numbers_5.every(num => num > 10);
+
+const some = numbers_5.some(num => num > 10);
+
+console.log('Every: ' + every);
+console.log('Some: ' + some);
