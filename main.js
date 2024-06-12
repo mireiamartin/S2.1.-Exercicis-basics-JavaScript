@@ -6,3 +6,8 @@ const add = (a, b) => {
 };
 
 console.log(add (2,7));
+
+//Exercici 2 nivell 1
+const randomNumber = () => {return Math.floor(Math.random() * 100)};
+
+console.log(randomNumber());
