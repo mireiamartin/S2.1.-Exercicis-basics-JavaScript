@@ -53,3 +53,10 @@ const potConduir = (edat) => {
 
 console.log(potConduir(20));
 console.log(potConduir(17));
+
+//Exercici 2 nivell 1
+const quinEsMesGran = (num1, num2) => {
+    return (num1 > num2) ? `${num1} és més gran` : `${num2} és més gran`;
+ };
+ 
+ console.log(quinEsMesGran(2,7))
