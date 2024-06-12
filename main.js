@@ -75,3 +75,17 @@ const trobarMaxim = (a,b,c) => {
 }
 
 console.log(trobarMaxim(1,10,6));
+
+//Exercici 4 nivell 3
+let arrayNumbers = [1, 2, 3, 4, 5];
+let result = ""
+
+const parOImpar = (array) => {
+
+    for (let i = 0; i < array.length; i++) {
+        result += array[i] % 2 === 0 ? `El ${array[i]} és parell, ` : `El ${array[i]} és imparell, `;
+    }
+    return result;
+}
+
+console.log(parOImpar(arrayNumbers));
