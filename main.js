@@ -153,3 +153,17 @@ function suma(...numbers){
 }
 
 console.log(suma(1,2,3,4,5))
+
+//exercici 3 nivell 2
+const objecte1 = {
+    nom: 'Mireia',
+    cognom: 'Martin',
+    ciutat: 'Sabadell'
+};
+
+const objecte2 = {...objecte1};
+
+objecte2.ciutat = 'Sant Quirze';
+
+console.log(objecte1);
+console.log(objecte2);
