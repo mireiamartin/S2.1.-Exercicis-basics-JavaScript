@@ -174,3 +174,13 @@ const numbersArray = [1, 2, 3, 4];
 const [number1, number2, ...rest] = numbersArray;
 
 console.log(number1, number2, rest);
+
+//exercici 5 nivell 3
+const arrayNum = [12, 22, 54];
+
+const sumaArguments = (num1, num2, num3) => {
+    const totalSuma = num1 + num2 + num3
+    console.log(totalSuma);
+}
+
+sumaArguments(...arrayNum);
