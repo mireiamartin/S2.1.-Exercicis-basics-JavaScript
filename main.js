@@ -39,7 +39,17 @@ const showNumbers = (array) => {
 }
 showNumbers(numbers);
 
-//Exercici 5 nivell 2
+//Exercici 5 nivell 3
 const printAfterThreeSeconds = setTimeout(() => {
     console.log(`Hola després d'esperar 3 segons`);
 }, 3000);
+
+//Exercici 1.2: Operador ternari
+
+//Exercici 1 nivell 1
+const potConduir = (edat) => {
+    return (edat >= 18) ? "Pot conduir" : "No pot conduir";
+};
+
+console.log(potConduir(20));
+console.log(potConduir(17));
