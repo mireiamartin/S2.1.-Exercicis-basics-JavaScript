@@ -259,3 +259,10 @@ let noms = ['Anna', 'Bernat', 'Clara'];
 noms.forEach(elemento =>{
     console.log(elemento)
 });
+
+//Exercici 2 nivell 1
+let noms2 = ['Anna', 'Bernat', 'Clara'];
+
+for (let elemento of noms2) {
+    console.log(elemento)
+}
