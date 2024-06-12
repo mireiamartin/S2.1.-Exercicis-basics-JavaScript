@@ -136,3 +136,13 @@ const changeToUpper = (cadena) => {
 }
 
 processarCadena("FrontEnd!", changeToUpper);
+
+//Exercici 1.4: Rest & Spread operators
+
+//exercici 1 nivell 1
+const array1 = [10, 9, 8]
+const array2 = [7, 6, 5]
+
+const combinedArray = [...array1, ...array2]
+
+console.log(combinedArray)
