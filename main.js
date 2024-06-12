@@ -250,3 +250,12 @@ const some = numbers_5.some(num => num > 10);
 
 console.log('Every: ' + every);
 console.log('Some: ' + some);
+
+//Exercici 1.6: Array loops
+
+//Exercici 1 nivell 1
+let noms = ['Anna', 'Bernat', 'Clara'];
+
+noms.forEach(elemento =>{
+    console.log(elemento)
+});
