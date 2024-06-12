@@ -201,3 +201,12 @@ const object2 = {
 const object3 = {...object1, ...object2}
 
 console.log(object3)
+
+//Exercici 1.5: Array transformations
+
+//Exercici 1 nivell 1
+const numbers_ = [1, 2, 3, 4];
+
+const quadratNum = numbers_.map(number => number * number);
+
+console.log(quadratNum);
