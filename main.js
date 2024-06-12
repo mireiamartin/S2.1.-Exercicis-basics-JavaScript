@@ -217,3 +217,10 @@ const numbers_1 = [1, 2, 3, 4];
 const parells = numbers_1.filter(number => number % 2 === 0);
 
 console.log(parells);
+
+//Exercici 3 nivell 1
+const numbers_2 = [1, 10 , 8, 11];
+
+const mesGran = numbers_2.find(number => number > 10);
+
+console.log(mesGran);
