@@ -146,3 +146,10 @@ const array2 = [7, 6, 5]
 const combinedArray = [...array1, ...array2]
 
 console.log(combinedArray)
+
+//exercici 2 nivell 1
+function suma(...numbers){
+    return numbers.reduce((total, number) => total + number, 0)
+}
+
+console.log(suma(1,2,3,4,5))
