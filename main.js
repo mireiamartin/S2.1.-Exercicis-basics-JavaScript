@@ -210,3 +210,10 @@ const numbers_ = [1, 2, 3, 4];
 const quadratNum = numbers_.map(number => number * number);
 
 console.log(quadratNum);
+
+//Exercici 2 nivell 1
+const numbers_1 = [1, 2, 3, 4];
+
+const parells = numbers_1.filter(number => number % 2 === 0);
+
+console.log(parells);
