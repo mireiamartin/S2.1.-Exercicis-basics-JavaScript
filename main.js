@@ -101,3 +101,11 @@ const processar = (nombre, callback) => {
 const calculator = (number1, number2, callback) => callback(number1 + number2)
 
 calculator (5,23, (result) => console.log(result))
+
+//exercici 3 nivell 2
+const esperarISaludar = (name, callback) => { setTimeout(() => {
+    callback(`Hola, ${name}`)
+    }, 2000);
+}
+
+esperarISaludar('Mireia', (saludar) => console.log(saludar))
