@@ -294,3 +294,10 @@ for (let elemento of numeros1) {
         break;
     }
 }
+
+//Exercici 6 nivell 3
+let noms3 = ['Anna', 'Bernat', 'Clara'];
+
+for (let [index, valor] of noms3.entries()){
+    console.log(`Index: ${index}, Valor: ${valor}`)
+}
