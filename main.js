@@ -273,3 +273,14 @@ let numeros = [1, 2, 3, 4, 5, 6];
 const numsPars = numeros.filter( num => num % 2 === 0)
 
 console.log(numsPars);
+
+//Exercici 4 nivell 2
+let obj = { 
+    nom: 'Ona', 
+    edat: 25, 
+    ciutat: 'Barcelona' 
+}; 
+
+for (let clave in obj) {
+    console.log(clave + ': ' + obj[clave])
+}
