@@ -96,3 +96,8 @@ console.log(parOImpar(arrayNumbers));
 const processar = (nombre, callback) => {
     callback(nombre)
 }
+
+//exercici 2 nivell 1
+const calculator = (number1, number2, callback) => callback(number1 + number2)
+
+calculator (5,23, (result) => console.log(result))
