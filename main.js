@@ -19,7 +19,7 @@ class Person {
         this.name = name;
         this.surname = surname;
     }
-    
+
     greet = () => {
         console.log(`Hola, ${this.name} ${this.surname}`);
     }
@@ -28,3 +28,13 @@ class Person {
 let persona = new Person('Mireia', 'Martín');
 
 persona.greet();
+
+//Exercici 4 nivell 2
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const showNumbers = (array) => {
+    for (let i = 0; i < array.length; i++) {
+        console.log(array[i]);
+    }
+}
+showNumbers(numbers);
