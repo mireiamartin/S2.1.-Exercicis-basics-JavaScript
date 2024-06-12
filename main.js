@@ -266,3 +266,10 @@ let noms2 = ['Anna', 'Bernat', 'Clara'];
 for (let elemento of noms2) {
     console.log(elemento)
 }
+
+//Exercici 3 nivell 1
+let numeros = [1, 2, 3, 4, 5, 6];
+
+const numsPars = numeros.filter( num => num % 2 === 0)
+
+console.log(numsPars);
