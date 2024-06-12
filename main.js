@@ -38,3 +38,8 @@ const showNumbers = (array) => {
     }
 }
 showNumbers(numbers);
+
+//Exercici 5 nivell 2
+const printAfterThreeSeconds = setTimeout(() => {
+    console.log(`Hola després d'esperar 3 segons`);
+}, 3000);
