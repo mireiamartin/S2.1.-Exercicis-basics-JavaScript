@@ -89,3 +89,10 @@ const parOImpar = (array) => {
 }
 
 console.log(parOImpar(arrayNumbers));
+
+//Exercici 1.3: Callbacks
+
+//exercici 1 nivell 1
+const processar = (nombre, callback) => {
+    callback(nombre)
+}
