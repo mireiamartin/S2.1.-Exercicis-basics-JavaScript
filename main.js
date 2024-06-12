@@ -224,3 +224,12 @@ const numbers_2 = [1, 10 , 8, 11];
 const mesGran = numbers_2.find(number => number > 10);
 
 console.log(mesGran);
+
+//Exercici 4 nivell 1
+const numbers_3 = [13, 7, 8, 21];
+
+const sumaTotal = numbers_3.reduce((total, number) => {
+    return total + number;
+})
+
+console.log(sumaTotal);
