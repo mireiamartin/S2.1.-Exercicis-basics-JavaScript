@@ -109,3 +109,18 @@ const esperarISaludar = (name, callback) => { setTimeout(() => {
 }
 
 esperarISaludar('Mireia', (saludar) => console.log(saludar))
+
+//exercici 4 nivell 2
+const arrayElements = ['casa', 'arbre', 'taula']
+
+const processarElements = (array, callback) => {
+    for (let i= 0; i < array.length; i++){
+        callback(array[i]);
+    }
+}
+
+const printElement = elemento => {
+    console.log(elemento);
+};
+
+processarElements(arrayElements, printElement);
