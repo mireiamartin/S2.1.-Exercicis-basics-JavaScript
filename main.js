@@ -60,3 +60,18 @@ const quinEsMesGran = (num1, num2) => {
  };
  
  console.log(quinEsMesGran(2,7))
+
+//Exercici 3 nivell 2
+const queEsElNumero = (num) => {
+    return (num > 0) ? "El número és positiu" : num <= -1 ? "El número és negatiu" : "El número és 0";
+}
+
+console.log(queEsElNumero(5))
+console.log(queEsElNumero(-4))
+console.log(queEsElNumero(0))
+
+const trobarMaxim = (a,b,c) => {
+    return (a > b && a > c) ? "El número a és més gran" : b > a && b > c ? "El número b és més gran" : "El número c més gran";
+}
+
+console.log(trobarMaxim(1,10,6));
