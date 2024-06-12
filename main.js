@@ -284,3 +284,13 @@ let obj = {
 for (let clave in obj) {
     console.log(clave + ': ' + obj[clave])
 }
+
+//Exercici 5 nivell 2
+let numeros1 = [1, 2, 3, 4, 5, 6];
+
+for (let elemento of numeros1) {
+    console.log(elemento)
+    if (elemento === 5){
+        break;
+    }
+}
