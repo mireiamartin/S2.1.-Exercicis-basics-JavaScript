@@ -32,7 +32,7 @@
   - Level 1, 2, 3
 
 * Exercise 1.7: Promises & Async/Await
-  - Level 1, 2, 3
+  - Level 1
 
 
 ## Targets
