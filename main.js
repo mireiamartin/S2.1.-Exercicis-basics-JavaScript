@@ -301,3 +301,17 @@ let noms3 = ['Anna', 'Bernat', 'Clara'];
 for (let [index, valor] of noms3.entries()){
     console.log(`Index: ${index}, Valor: ${valor}`)
 }
+
+//Exercici 1.7: Promises & Async/Await
+
+//Exercici 1 nivell 1
+
+const waitTwoSeconds = new Promise ((resolve, reject) => {
+    setTimeout(() => {
+        resolve('Hola, món');
+    }, 2000)
+})
+
+waitTwoSeconds.then((message) => {
+    console.log(message)
+});
