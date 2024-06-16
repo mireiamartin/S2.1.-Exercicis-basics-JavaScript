@@ -337,4 +337,22 @@ const inputHola = () => {
 }
 
 inputHola().then(input => console.log(input))
-    .catch(error => console.log(error))
+    .catch(error => console.log(error));
+
+//Exercici 4 nivell 1
+const waitTwoSeconds3 = new Promise ((resolve, reject) => {
+    setTimeout(() => {
+        resolve('Hola, món');
+    }, 2000);
+})
+
+const asyncAwait = async () => {
+    const resultat = await waitTwoSeconds3;
+    return resultat;
+}
+
+asyncAwait().then(result => {
+    console.log(result);
+}).catch(error => {
+    console.error(error);
+});
