@@ -305,7 +305,6 @@ for (let [index, valor] of noms3.entries()){
 //Exercici 1.7: Promises & Async/Await
 
 //Exercici 1 nivell 1
-
 const waitTwoSeconds = new Promise ((resolve, reject) => {
     setTimeout(() => {
         resolve('Hola, món');
@@ -313,7 +312,6 @@ const waitTwoSeconds = new Promise ((resolve, reject) => {
 })
 
 //Exercici 2 nivell 1
-
 const waitTwoSeconds2 = new Promise ((resolve, reject) => {
     setTimeout(() => {
         resolve('Hola, món');
@@ -323,3 +321,20 @@ const waitTwoSeconds2 = new Promise ((resolve, reject) => {
 waitTwoSeconds.then((message) => {
     console.log(message)
 });
+
+//Exercici 3 nivell 1
+const inputHola = () => {
+    const input = "hola";
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            if (input === "hola") {
+                resolve(input);
+            } else {
+                reject("input erroni");
+            }
+        }, 2000);
+    });
+}
+
+inputHola().then(input => console.log(input))
+    .catch(error => console.log(error))
