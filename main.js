@@ -312,6 +312,14 @@ const waitTwoSeconds = new Promise ((resolve, reject) => {
     }, 2000)
 })
 
+//Exercici 2 nivell 1
+
+const waitTwoSeconds2 = new Promise ((resolve, reject) => {
+    setTimeout(() => {
+        resolve('Hola, món');
+    }, 2000)
+})
+
 waitTwoSeconds.then((message) => {
     console.log(message)
 });
